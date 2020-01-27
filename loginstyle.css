@@ -1,0 +1,93 @@
+body{
+    background-image: url("img/cybersecurity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: monospace;
+    font-size:50px;
+    color: rgb(252, 121, 14);
+}
+
+.welcome{
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 30px 0;
+    border: 1px solid gray;
+    box-shadow: -1px -1px gray;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+p{
+    font-size: 30px;
+}
+.details{
+    margin: auto;
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    padding: 70px 0;
+    border: 1px solid gray;
+    box-shadow: -1px -1px gray;
+}
+.email{
+    color: rgb(10, 14, 5);
+    font-family: monospace;
+    font-size: 20px;
+}
+.password{
+    color: rgb(13, 17, 7);
+    font-family: monospace;
+    font-size: 17px;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: comic sans MS;
+}
+input[type=text]{
+    width: 250px;
+    height: 20px;
+    border: 2px solid rgb(10, 2, 12);
+    border-radius: 5px;
+    font-family: comic sans MS;
+}
+input[type=password]{
+    width: 250px;
+    height: 20px;
+    border: 2px solid rgb(11, 14, 13);
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(22, 14, 14);
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.valid{
+    display: none;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    height: 10px;
+    width: 800px;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+}

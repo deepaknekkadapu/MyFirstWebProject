@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+}
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 25px;     
+}
+.select{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-family: comic sans MS;
+    font-size: 25px;
+}
+.countries{
+    position: relative;
+    height: 40px;
+    text-align: left;
+    width: 80%;
+    background-color: rgb(22, 153, 77);
+    margin-left: 40px;
+}
+a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: comic sans MS;
+    margin-left: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.india{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    background-color: lightgray;
+    margin-left: 40px;
+    visibility: hidden;
+}
+.india > div{
+    background-color: black;
+    width: 100px;
+    margin: 12px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 15px;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+#ind, #aus, #rsa, #nz, #sl, #eng, #wi, #pak{
+    margin-left: 100px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 190px;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: stretch;
+}
+#welind{
+    visibility: hidden;
+    font-family: cursive;
+}

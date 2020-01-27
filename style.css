@@ -1,0 +1,61 @@
+body{
+    background-image: url('img/bckimg.jpg');
+}
+div{
+    color: green;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background: linear-gradient(35deg, rgb(128, 245, 245),rgb(247, 114, 114));
+    z-index: 10;
+}
+input[type=text]{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+input[type=password]{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+button{
+    position: absolute;
+    margin-top:300px;
+    margin-left: 30px;
+    background-color: rgb(224, 131, 131);
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: comic sans MS;
+    color: white;
+}
+.signup{
+    position: absolute;
+    margin-top:300px;
+    margin-left: 180px;
+    background-color: rgb(221, 152, 61);
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: comic sans MS;
+}
+a{
+    position: absolute;
+    margin-top:400px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: comic sans MS;
+    font-size: 20px;
+    color: rgb(148, 3, 124);
+}
+.authentication{
+    position: absolute;
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    vertical-align: center;
+    margin-top: 20px;
+}
